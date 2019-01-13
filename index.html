@@ -21,21 +21,20 @@
 			</header>
 			<div class="jumbotron">
 				<div class="jumbo-child">
-					<div class="left">
+					<div class="flex-container">
 						<h1>Professional</h1>
 
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum lorem. </p>
 
 						<button type="button" name="btn">Explore</button>
 					</div>
-					<div class="right">
+					<div class="flex-container">
 						<h1>Professional</h1>				
 
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum lorem. </p>
 
 						<button type="button" name="btn">Explore</button>
 					</div>
-					<div class="clear-both"></div>
 				</div>
 				<div class="arrow-container">
 					<div class="arrow bounce">
@@ -44,50 +43,61 @@
 				</div>
 			</div>
 		</section>
-		<section class="about-section">
-			<div class="left">
-				<div class="about-left-container">
-					<div class="image-container">
-						<img src="assets/images/pexels-photo-1310522.jpeg" />
-					</div>
-					<header>Inside August Rising</header>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<section class="about-section" id="scrollTo">
+			<div class="flex-container about-left-container">
+				<div class="image-container">
+					<img src="assets/images/pexels-photo-1310522.jpeg" /> <!-- Must be 150x150 -->
 				</div>
-			</div>
-			<div class="right">
-				<div class="about-right-container">
-					<header>Recently Posted</header>
+				<header>
+					<h1>Inside August Rising</h1>
+				</header>
 
+				<p class="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="flex-container about-right-container">
+				<header>
+					<h1>Recently Posted</h1>
+				</header>
+				<div class="blog-post-container">
 					<div class="post-container">
 						<div class="image-container">
-							<img src="#" />
+							<img src="assets/images/pexels-photo-167698.jpeg" /> <!-- Must be 200x200 -->
 						</div>
-						<header>The Most Popular Post on the Blog</header>
-						<p>by: August Rising || created: Jan 06/2019</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<header>
+							<h1>The Most Popular Post on the Blog</h1>
+						</header>
+						<p class="author-info">by: August Rising || created: Jan 06/2019</p>
+						<p class="post-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 						<button type="button" name="btn">Read More</button>
 					</div>
 					<div class="post-container">
 						<div class="image-container">
-							<img src="#" />
+							<img src="assets/images/pexels-photo-1738623.jpeg" /> <!-- Must be 200x200 -->
 						</div>
-						<header>The Most Popular Post on the Blog</header>
-						<p>by: August Rising || created: Jan 06/2019</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<header>
+							<h1>The Most Popular Post on the Blog</h1>
+						</header>
+						<p class="author-info">by: August Rising || created: Jan 06/2019</p>
+						<p class="post-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 						<button type="button" name="btn">Read More</button>
 					</div>
 				</div>
 			</div>
-			<div class="clear-both"></div>
 		</section>
-		<footer>
-			<p>Back to the top</p>
-			<p>Copyright © 2019 • Designed and Developed by SHARF</p>
-			<p>Find me on social media: <i class="fas fa-envelope"></i><i class="fab fa-instagram"></i><i class="fab fa-twitter"></i><i class="fab fa-linkedin"></i></p>
-				<!-- fa icons and shit -->
-		</footer>
+		<section class="footer-section">
+			<footer>
+				<p>Back to the top</p>
+				<p>Copyright © 2019 • Designed and Developed by SHARF</p>
+				<p>Find me on social media: 
+					<i class="fas fa-envelope"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-linkedin"></i>
+				</p>
+			</footer>
+		</section>
+		
 	</body>
 </html>
