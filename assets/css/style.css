@@ -28,7 +28,7 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 		margin:5% 0;
 		text-align:center;
 		text-decoration:none;
-		font-size: 1em;
+		font-size: 1rem;
 		text-transform: uppercase;
 	}
 	.hidden{
@@ -65,7 +65,7 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 		.logo-container{
 			width:100%;
 			text-transform: uppercase;
-			font-size:32px;
+			font-size:2rem;
 		}
 		.logo-container > h1 {font-family: 'Lato', sans-serif;}
 		
@@ -93,7 +93,7 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 					text-transform: uppercase;
 					letter-spacing:0.3em;
 					line-height:2;
-					font-size:2em;
+					font-size:2rem;
 				}
 				.jumbo-child p{
 					width:70%;
@@ -147,7 +147,7 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 
 /* About section stylings */
 	.about-section{
-		width:80%;
+		width:100%;
 		padding: 5% 0;
 		margin:0 auto;
 	}
@@ -169,9 +169,7 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 
 	/* Left Container */
 		.about-left-container{
-			padding:0 1%;
-			margin: 0 auto;
-			color:#330004;
+			margin: 0 3%;
 		}
 		.about-left-container > .image-container{
 			width:150px; 
@@ -183,14 +181,13 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 
 	/* Right Container */
 		.about-right-container{
-			width:50%; 
-			padding:0 1%;
-			margin: 0 auto;
+			margin:0 3%;
 		}
 
 		.blog-post-container{
-			width:90%;
+			width:100%;
 			display: inline-flex;
+			justify-content: space-between;
 		}
 		.post-container{
 			max-width: 300px;
@@ -237,14 +234,18 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 
 
 @media screen and (max-width:1440px){
-	.about-section{
-		width:90%;
-	}
 	.about-left-container{
 		width:40%;
 	}
 	.about-right-container{
 		width:60%;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.post-container{
+		width:60%;
+		padding: 1% 2%;
 	}
 }
 
@@ -254,9 +255,26 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 	}
 	.blog-post-container{
 		width:100%;
+		justify-content:space-between;
+	}	
+	.about-section{
+		padding-bottom:7.5%;
+		flex-direction: column;
+	}
+	.about-left-container, .about-right-container{
+		width:90%;
+		margin: 0 auto;
+		padding:0;
+	}
+	.about-left-container p {
+		width:90%;
+		margin:0 auto;
 	}
 	.post-container{
 		max-width:275px;
+	}
+	.blog-post-container{
+		justify-content: space-around;
 	}
 }
 
@@ -270,23 +288,8 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 		letter-spacing:0.08em;
 		font-weight:100;
 	}
-
-	.about-section{
-		padding-bottom:7.5%;
-		flex-direction: column;
-	}
-	.about-left-container, .about-right-container{
-		width:100%;
-		padding:0;
-	}
-	.about-left-container p {
-		width:85%;
-	}
 	.post-container{
-		max-width:300px;
-	}
-	.blog-post-container{
-		justify-content: space-evenly;
+
 	}
 	.footer-section > footer{
 		width:85%;
@@ -299,7 +302,11 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 		padding:10% 15px;
 	}
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:650px){
+	button[type="button"]{
+		margin: 2% 0;
+	}
+
 	.hidden{
 		display: block;
 	}
@@ -310,7 +317,7 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 		flex-flow: column wrap;
 	}
 	.jumbo-child > .flex-container{
-		padding: 5% 1%;
+		padding: 1%;
 	}
 	.arrow{
 		width:50px;
@@ -318,6 +325,9 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 	}
 	.arrow i{
 		font-size:2.5rem;
+	}
+	.about-left-container p {
+		width:70%;
 	}
 
 	.blog-post-container{
@@ -327,4 +337,26 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 		margin:5% auto;
 	}
 
+}
+@media screen and (max-width: 425px){
+	button[type="button"]{
+		margin: 5% 0;
+
+	}
+	.about-section h1{
+		letter-spacing: 3px;
+	}
+}
+
+@media screen and (max-width:320px){
+	.logo-container > h1{
+		font-size:2.5rem;
+	}
+
+	.jumbo-child h1{
+		line-height:1.314;
+	}
+	.jumbo-child p{
+		line-height:1.314;
+	}
 }
