@@ -14,36 +14,37 @@
 
 	<body>
 		<section class="main-section">
-			<header>
-				<div class="logo-container">
+			<div class="home-container flex-parent">
+				<div class="logo-container flex-container">
 					<h1>August Rising</h1>
 				</div>
-			</header>
-			<div class="jumbotron">
-				<div class="jumbo-child">
-					<div class="flex-container">
-						<h1>Professional</h1>
+				<div class="jumbotron flex-container">
+					<div class="jumbo-child flex-parent">
+						<div class="flex-container">
+							<h1>Professional</h1>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum lorem. </p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum lorem. </p>
 
-						<button type="button" name="btn">Explore</button>
-					</div>
-					<div class="flex-container">
-						<h1>Professional</h1>				
+							<button type="button" name="btn">Explore</button>
+						</div>
+						<hr class="hidden">
+						<div class="flex-container">
+							<h1>Professional</h1>				
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum lorem. </p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum lorem. </p>
 
-						<button type="button" name="btn">Explore</button>
+							<button type="button" name="btn">Explore</button>
+						</div>
 					</div>
 				</div>
-				<div class="arrow-container">
+				<div class="arrow-container flex-container">
 					<div class="arrow bounce">
 						<i class="fas fa-angle-double-down"></i>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="about-section" id="scrollTo">
+		<section class="about-section flex-parent" id="scrollTo">
 			<div class="flex-container about-left-container">
 				<div class="image-container">
 					<img src="assets/images/pexels-photo-1310522.jpeg" /> <!-- Must be 150x150 -->
@@ -58,7 +59,7 @@
 				<header>
 					<h1>Recently Posted</h1>
 				</header>
-				<div class="blog-post-container">
+				<div class="flex-container blog-post-container">
 					<div class="post-container">
 						<div class="image-container">
 							<img src="assets/images/pexels-photo-167698.jpeg" /> <!-- Must be 200x200 -->
@@ -88,14 +89,13 @@
 		</section>
 		<section class="footer-section">
 			<footer>
-				<p>Back to the top</p>
 				<p>Copyright © 2019 • Designed and Developed by SHARF</p>
-				<p>Find me on social media: 
-					<i class="fas fa-envelope"></i>
-					<i class="fab fa-instagram"></i>
-					<i class="fab fa-twitter"></i>
-					<i class="fab fa-linkedin"></i>
-				</p>
+				<div class="icons-container">
+					<i class="fas fa-envelope" aria-hidden="true"></i>
+					<i class="fab fa-instagram" aria-hidden="true"></i>
+					<i class="fab fa-twitter" aria-hidden="true"></i>
+					<i class="fab fa-linkedin" aria-hidden="true"></i>
+				</div>
 			</footer>
 		</section>
 		
