@@ -10,6 +10,7 @@
 	font-weight: 100;
 	text-align: center;
 }
+html{scroll-behavior: smooth;}
 
 body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 
@@ -117,9 +118,14 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 						0 3px 6px rgba(0, 0, 0, 0.36),
 						0 3px 6px rgba(0, 0, 0, 0.36);
 				}
-				.arrow > i{
+				.arrow > a{
+					display:block;
+					text-decoration: none;
+					color:#330004;
+				}
+				.arrow i{
 					margin-top:7px;
-					font-size:60px;
+					font-size:4.5rem;
 				}
 
 				/* For bounce animation */
@@ -310,8 +316,8 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 		width:50px;
 		height:50px;
 	}
-	.arrow > i{
-		font-size:35px;
+	.arrow i{
+		font-size:2.5rem;
 	}
 
 	.blog-post-container{
