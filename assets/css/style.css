@@ -51,7 +51,11 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 /* home section stylings */
 	.main-section{
 		height: 100%; 
-		background:url("../images/adult-application-asian-733856.jpg");
+		background: linear-gradient(
+			rgba(0, 0, 0, 0.25),
+			rgba(0, 0, 0, 0.25)
+			), 
+			url("../images/adult-application-asian-733856.jpg");
 		background-position: center;
   		background-repeat: no-repeat;
   		background-size: cover;
@@ -79,7 +83,7 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 				.jumbo-child{
 					justify-content: space-around;
 					color:#FFFFF0;
-					background-color: rgba(0, 0, 0, 0.75);
+					background-color: rgba(0, 0, 0, 0.5);
 					text-align:center;
 				}
 				.jumbo-child > .flex-container{
@@ -101,6 +105,12 @@ body, html{height:100%; font-size:14px; background-color:#FFFFF0;}
 					letter-spacing: 0.1em;
 					line-height:1.618;
 					font-size:0.8em;
+				}
+				.jumbo-child button {
+					margin: 3%;
+					background: #330004;
+					border: 1px solid #FFFFF0;
+					border-radius: 15px;
 				}
 			/* Arrow styling */
 				.arrow-container{ 
