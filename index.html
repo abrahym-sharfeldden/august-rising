@@ -15,9 +15,19 @@
 	<body>
 		<section class="main-section">
 			<div class="home-container flex-parent">
-				<div class="logo-container flex-container">
-					<h1>August Rising</h1>
-					<hr class="hidden">
+				<div class="flex-parent header-container">
+					<div class="logo-container flex-container">
+						<h2>August Rising</h2>
+					</div>
+					<div class="navbar-container flex-container">
+						<ul class="flex-parent">
+							<li class="flex-container"><a href="index.html">Home</a></li>
+							<li class="flex-container"><a href="#scrollToAbout">My Story</a></li> <!-- Who I am, About -->
+							<li class="flex-container"><a href="#scrollToContact">Reach Out</a></li> <!-- Contact, get in touch, Connect -->
+							<li class="flex-container"><a href="#scrollToBlog">Blog</a></li>
+						</ul>
+						<hr>
+					</div>
 				</div>
 				
 				<div class="jumbotron flex-container">
@@ -33,66 +43,123 @@
 					</div>
 				</div>
 				<div class="arrow-container flex-container">
-					<div class="arrow bounce">
-						<a href="#scrollTo"><i class="fas fa-angle-double-down"></i></a>
+					<div class="arrow">
+						<a href="#scrollToAbout"><i class="fas fa-angle-double-down"></i></a>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="about-section flex-parent" id="scrollTo">
-			<div class="flex-container about-left-container">
-				<div class="image-container">
-					<img src="assets/images/pexels-photo-1310522.jpeg" /> <!-- Must be 150x150 -->
+		<section class="about-section flex-parent" id="scrollToAbout">
+			<div class="flex-container about-container flex-parent">
+				<div class="image-container flex-container">
+					<img src="assets/images/pexels-photo-1310522.jpeg" /> <!-- Must be square -->
 				</div>
-				<header>
+				<div class="flex-container">
+					<header>
 					<h1>Inside August Rising</h1>
-				</header>
+					</header>
 
-				<p class="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p class="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
 			</div>
-			<div class="flex-container about-right-container">
+		</section>
+		<section class="blog-section">
+			<div class="blog-container">
 				<header>
 					<h1>Recently Posted</h1>
 				</header>
-				<div class="flex-container blog-post-container">
-					<div class="post-container">
-						<div class="image-container">
-							<img src="assets/images/pexels-photo-167698.jpeg" /> <!-- Must be 200x200 -->
-						</div>
-						<header>
-							<h1>The Most Popular Post on the Blog</h1>
-						</header>
-						<p class="author-info">by: August Rising || created: Jan 06/2019</p>
-						<p class="post-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<div class="flex-parent">
+					<div class="flex-container card-container">
+						<div class="blog-card">
+							<div class="image-container">
+								<img src="assets/images/activity-autumn-blond-1374545.jpg">
+							</div>
+							<div class="blog-content">
+								<h1>Title of the Blog Post</h1>
+								<p>created by August Rising<br>Jan/05/2019</p>
 
-						<button type="button" name="btn">Read More</button>
+								<p class="description">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</p>
+
+								<p class="read-more">Read More <i class="fas fa-arrow-right"></i></p>
+							</div>
+						</div>
 					</div>
-					<div class="post-container">
-						<div class="image-container">
-							<img src="assets/images/pexels-photo-1738623.jpeg" /> <!-- Must be 200x200 -->
-						</div>
-						<header>
-							<h1>The Most Popular Post on the Blog</h1>
-						</header>
-						<p class="author-info">by: August Rising || created: Jan 06/2019</p>
-						<p class="post-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<div class="flex-container card-container">
+						<div class="blog-card">
+							<div class="image-container">
+								<img src="assets/images/activity-autumn-blond-1374545.jpg">
+							</div>
+							<div class="blog-content">
+								<h1>Title of the Blog Post</h1>
+								<p>created by August Rising<br>Jan/05/2019</p>
 
-						<button type="button" name="btn">Read More</button>
+								<p class="description">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</p>
+
+								<p class="read-more">Read More <i class="fas fa-arrow-right"></i></p>
+							</div>
+						</div>
+					</div>
+					<div class="flex-container card-container">
+						<div class="blog-card">
+							<div class="image-container">
+								<img src="assets/images/activity-autumn-blond-1374545.jpg">
+							</div>
+							<div class="blog-content">
+								<h1>Title of the Blog Post</h1>
+								<p>created by August Rising<br>Jan/05/2019</p>
+
+								<p class="description">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</p>
+
+								<p class="read-more">Read More <i class="fas fa-arrow-right"></i></p>
+							</div>
+						</div>
 					</div>
 				</div>
+			</div>
+		</section>
+		<section class="contact-section" id="scrollToContact">
+			<div class="contact-container">
+				<header>
+					<h1>Get In Touch</h1>
+				</header>
+			
+				<form class="contact-form flex-parent">
+					<div class="flex-parent">
+						<div class="form-field flex-container">
+							<input type="text" name="name" placeholder=" " required/>
+							<label for="name">Name</label>
+						</div>
+						<div class="form-field flex-container">
+							<input type="email" name="email"  placeholder=" " required/>
+							<label for="email">E-mail</label>
+						</div>
+					</div>
+					<div class="flex-parent">
+						<div class="form-field col-100 flex-container">				
+							<input type="text" name="message"   placeholder=" " required/>
+							<label for="message">Message</label>
+						</div>
+					</div>
+					<div class="flex-parent contact-btn">
+						<div class="form-field col-100 flex-container">
+							<button type="submit" value="submit">Submit</button>
+						</div>
+					</div>
+				</form>
 			</div>
 		</section>
 		<section class="footer-section">
 
 			<hr class="hidden">
 			
-			<footer>
+			<footer class="flex-parent">
 				<p>Copyright © 2019 • Designed and Developed by SHARF</p>
-				<div class="icons-container">
-					<i class="fas fa-envelope" aria-hidden="true"></i>
-					<i class="fab fa-instagram" aria-hidden="true"></i>
-					<i class="fab fa-twitter" aria-hidden="true"></i>
-					<i class="fab fa-linkedin" aria-hidden="true"></i>
+				<div class="icons-container flex-container flex-parent">
+					<p>Connect with me: </p>
+					<a href="#"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+					<a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+					<a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+					<a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
 				</div>
 			</footer>
 		</section>
