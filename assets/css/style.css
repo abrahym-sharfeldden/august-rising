@@ -503,3 +503,68 @@ p.read-more:hover{
 @media screen and (max-width: 768px){
 	
 }
+
+@media screen and (max-width:425px){
+	.jumbo-child h1{
+		font-size:24px;
+	}
+	.jumbo-child p {
+		font-size:12px;
+	}
+	.arrow{
+		width:60px;
+		height:60px;
+	}
+	.arrow i{
+		margin-top:12px;
+		font-size:36px;
+	}
+
+	.about-container{
+		flex-direction: column;
+	}
+	.about-container > .flex-container{
+		margin: 0 auto;
+		width:90%;
+	}
+
+	.summary-container{
+		padding: 5% 0;
+	}
+
+	.about-description{
+		line-height:1.428;
+		color: hsl(60, 22%, 88%);
+	}
+
+	.blog-container > .flex-parent {
+		flex-direction: column;
+		margin: 5% auto 0;
+		justify-content:space-between;
+	}
+	.card-container{
+		width: 100%;
+		margin: 0 auto;
+		min-height: 365px;
+	}
+	.blog-card > .image-container {
+		display:none;
+	}
+
+	.contact-container {
+		width:80%;
+	}
+
+	.footer-container > .flex-parent{
+		flex-direction: column-reverse;
+	}
+	.footer-container .flex-parent p{
+		font-size:12px;
+	}
+	.icons-container{
+		padding: 2% 0;
+	}
+	.icons-container i {
+		font-size: 22px;
+	}
+}
