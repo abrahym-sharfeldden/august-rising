@@ -287,14 +287,15 @@ body, html{height:100%; font-size:14px; background-color: hsl(60, 100%, 97%);}
 	justify-content: space-evenly;
 }
 .card-container{
-	width:100%;
+	width:33%;
 	min-height:400px;
+	margin: 0 3%;
 }
 .blog-card{
 	background:#fff;
 	min-height:100%;
 	margin: 0 5%;
-
+	flex-direction:column;
 	box-shadow:
 		2.5px 2.5px 15px #EEE,
 		-2.5px -2.5px 15px #EEE,
@@ -320,7 +321,6 @@ body, html{height:100%; font-size:14px; background-color: hsl(60, 100%, 97%);}
 }
 .blog-content > p.description{
 	margin: 1% 0 2%;
-	max-width: 250px;
 	max-height: 110px;
 	min-height:110px;
 	line-height: 1.3;
@@ -330,7 +330,7 @@ body, html{height:100%; font-size:14px; background-color: hsl(60, 100%, 97%);}
 }
 .blog-content > p.read-more{
 	text-align: right;
-	margin-top:12%;
+	/*margin-top:12%;*/
 	font-weight: 200;
 	transition: all ease 0.1s;
 }
@@ -487,15 +487,52 @@ p.read-more:hover{
 }
 
 @media screen and (max-width: 1200px){
-	
+	.blog-container{
+		width:90%;
+	}
 }
 
 @media screen and (max-width:1024px){
-	
+	.blog-container > .flex-parent {
+		flex-direction: column;
+		margin: 5% auto 0;
+		justify-content:space-between;
+	}
+	.card-container{
+		width: 100%;
+		margin: 5% auto;
+		max-height: 250px;
+		min-height:0;
+	}
+	.blog-card{
+		flex-direction: row;
+	}
+	.blog-content{
+		padding: 3% 5% 1%;
+	}
+	.blog-content > h1{
+		margin: 0;
+		line-height: 1.314;
+	}
+	.blog-content > p{
+		margin: 1% 0;
+	}
+	.blog-content > p.description{
+		max-width:initial;
+		max-height: initial;
+		min-height: initial;
+		margin: 1% 0;
+	}
+	.blog-content > p.read-more{
+		margin-top:2%;
+	}
 }
 
 @media screen and (max-width: 768px){
 	
+	.blog-card > .image-container {
+		display:none;
+	}
 }
 @media screen and (max-width:650px){
 	
@@ -535,20 +572,6 @@ p.read-more:hover{
 	.about-description{
 		line-height:1.428;
 		color: hsl(60, 22%, 88%);
-	}
-
-	.blog-container > .flex-parent {
-		flex-direction: column;
-		margin: 5% auto 0;
-		justify-content:space-between;
-	}
-	.card-container{
-		width: 100%;
-		margin: 0 auto;
-		min-height: 365px;
-	}
-	.blog-card > .image-container {
-		display:none;
 	}
 
 	.contact-container {
