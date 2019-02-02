@@ -460,7 +460,7 @@ p.read-more:hover{
 			align-items: center;
 	}
 
-	.footer-container p{
+	.footer-container h6{
 		margin: 0;
 	}
 
@@ -590,7 +590,7 @@ p.read-more:hover{
 		display:none;
 	}
 	.blog-card > .blog-content{
-		width:90%;
+		width:h60%;
 		margin: 0 auto;
 	}
 	.jumbo-child h1{
@@ -614,7 +614,7 @@ p.read-more:hover{
 	.footer-container > .flex-parent{
 		flex-direction: column-reverse;
 	}
-	.footer-container .flex-parent p{
+	.footer-container .flex-parent h6{
 		font-size:12px;
 	}
 	.icons-container{
