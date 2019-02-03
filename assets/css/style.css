@@ -298,6 +298,7 @@ body, html{
 				.arrow i{
 					margin-top: 16px;
 					font-size: 42px;
+					color: #330004;
 				}
 
 
@@ -587,7 +588,7 @@ p.read-more:hover{
 	.icons-container i{
 		font-size:1.5em;
 		padding:0 10px;
-		color:hsl(60, 3%, 35%);
+		color: hsl(60, 3%, 35%);
 		-webkit-transition: color 0.3s linear;
 		-o-transition: color 0.3s linear;
 		transition: color 0.3s linear;
