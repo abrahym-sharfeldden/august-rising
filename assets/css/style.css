@@ -42,13 +42,13 @@ html{scroll-behavior: smooth;}
 body, html{
 	height:100%; 
 	font-size:14px; 
-	background-color: hsl(60, 100%, 97%), #FFFFF0;
+	background-color: hsl(60, 100%, 97%);
 }
 
 /* 1. Typography Styles
 ======================================== */
 	h1{
-		color: hsl(60, 100%, 97%), #FFFFF0;
+		color: hsl(60, 100%, 97%);
 		font-family:'PT Sans Narrow', sans-serif; 
 		text-transform: uppercase;
 		font-weight: 600;
@@ -58,19 +58,19 @@ body, html{
 		letter-spacing: 1px;
 	}	
 	p{
-		color: hsl(60, 100%, 97%), #FFFFF0;
+		color: hsl(60, 100%, 97%);
 		font-family:'Raleway', sans-serif;
 		font-weight: 300;
 		font-size: 16px; 
 	}
 	button[type="button"], button[type="submit"] {
-		background-color: hsl(355, 100%, 10%), #330004;
+		background-color: hsl(355, 100%, 10%);
 		border: none;
 		border-radius: 3px;
 		margin: 3%;
 		padding: 2.5%;
 		
-		color:  hsl(60, 100%, 97%), #FFFFF0;
+		color:  hsl(60, 100%, 97%);
 		text-transform: uppercase;
 		font-size: 12px;
 		font-weight:400;
@@ -94,7 +94,7 @@ body, html{
 		background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(255,255,255,0.5), rgba(0,0,0,0));
 		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255,255,255,0.5), rgba(0,0,0,0));
 	}
-	.image-container > img { width:100%; height: 100%;}
+	.image-container > img { width:100%; height: auto;}
 	
 	.flex-parent{
 		width:100%;
@@ -157,7 +157,7 @@ body, html{
 		    -ms-flex-direction: column;
 	        flex-direction: column;
 			
-			color: hsl(60, 100%, 97%), #FFFFF0;
+			color: hsl(60, 100%, 97%);
 		}
 		.logo-container{
 			margin: 0 auto;
@@ -210,7 +210,7 @@ body, html{
 				.jumbo-child{
 					-ms-flex-pack: distribute;
 				    justify-content: space-around;
-					color: hsl(60, 100%, 97%), #FFFFF0;
+					color: hsl(60, 100%, 97%);
 					text-align: center;
 				}
 
@@ -231,15 +231,15 @@ body, html{
 					/*display: none;*/
 				}
 				.jumbo-child button {
-					background:  hsl(60, 100%, 97%), #FFFFF0;
-					color: hsl(355, 100%, 10%), #330004;
+					background:  hsl(60, 100%, 97%);
+					color: hsl(355, 100%, 10%);
 					-webkit-transition: all 0.25s ease;
 					-o-transition: all 0.25s ease;
 					transition: all 0.25s ease;
 				}
 				.jumbo-child button:hover{
-					background-color:  hsl(355, 100%, 10%), #330004;
-					color: hsl(60, 100%, 97%), #FFFFF0;
+					background-color:  hsl(355, 100%, 10%);
+					color: hsl(60, 100%, 97%);
 				}
 			/* Arrow styling */
 				.arrow-container{ 
@@ -250,7 +250,7 @@ body, html{
 					height: 70px;
 					margin: 0 auto 10px;
 					border-radius: 100px;
-					background-color: hsl(60, 100%, 97%), #FFFFF0;
+					background-color: hsl(60, 100%, 97%);
 					-webkit-box-shadow: 
 						0 3px 6px rgba(0, 0, 0, 0.36),
 						0 3px 6px rgba(0, 0, 0, 0.36),
@@ -305,7 +305,7 @@ body, html{
 /* About section stylings */
 	.about-section{
 		width:100%;
-		background:hsl(355, 100%, 10%), #330004;
+		background:hsl(355, 100%, 10%);
 		margin:0 auto;
 	}
 	.about-container{
@@ -314,7 +314,7 @@ body, html{
 		width: 80%;
 		max-width:1440px;
 		
-		color: hsl(60, 22%, 88%), #E7E7DA;
+		color: hsl(60, 22%, 88%);
 	}
 	.about-container > .flex-container {
 		width:40%;
@@ -387,14 +387,14 @@ body, html{
 	margin: 2% 0 2%;
 	text-align: left;
 	font-weight: 600;
-	color:#666;
+	color: #666;
 }
 .blog-content > p{
 	font-weight: 200;
 	text-align: left;
 	font-size:1em;
 	margin: 0 0 2%;
-	color:#333;
+	color: #333;
 }
 .blog-content > p.description{
 	margin: 1% 0 2%;
@@ -422,7 +422,7 @@ p.read-more:hover{
 /* Contact Form */
 	.contact-section{
 		width:100%;
-		background: hsl(355, 100%, 10%), #330004;
+		background: hsl(355, 100%, 10%);
 	}
 	.contact-container{
 		padding:5% 0;
@@ -469,7 +469,7 @@ p.read-more:hover{
 		background: transparent;
 		font-weight: 400;
 		text-align: left;
-		color: hsl(60, 100%, 97%), #FFFFF0;
+		color: hsl(60, 100%, 97%);
 		-webkit-transition: 0.2s ease border-bottom;
 		-o-transition: 0.2s ease border-bottom;
 		transition: 0.2s ease border-bottom;
@@ -514,8 +514,8 @@ p.read-more:hover{
 		height:100%;
 		margin:0;
 		border-radius: 10px;
-		background:  hsl(60, 100%, 97%), #FFFFF0;
-		color: hsl(355, 100%, 10%), #330004;
+		background:  hsl(60, 100%, 97%);
+		color: hsl(355, 100%, 10%);
 		-webkit-transition: all ease 0.25s;
 		-o-transition: all ease 0.25s;
 		transition: all ease 0.25s;
@@ -526,7 +526,7 @@ p.read-more:hover{
 	}
 /* Footer section stylings */
 	.footer-section{
-		background:hsl(355, 100%, 10%), #330004;
+		background:hsl(355, 100%, 10%);
 		color: #8C8C83;
 	}
 	.footer-section > hr{
@@ -607,7 +607,7 @@ p.read-more:hover{
 	}
 }
 
-@media screen and (max-width:1080px){
+@media screen and (max-width:1024px){
 	.summary-container{
 		font-size:1.3vw;
 	}
@@ -692,7 +692,7 @@ p.read-more:hover{
 
 	.about-description{
 		line-height:1.428;
-		color: hsl(60, 22%, 88%), #E7E7DA;
+		color: hsl(60, 22%, 88%);
 	}
 
 	.about-container .image-container{
